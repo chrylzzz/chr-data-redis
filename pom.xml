@@ -20,11 +20,11 @@
 
 	<dependencies>
 		<!-- JDK 1.8+ compatible -->
-		<!--<dependency>-->
-			<!--<groupId>org.redisson</groupId>-->
-			<!--<artifactId>redisson</artifactId>-->
-			<!--<version>3.5.4</version>-->
-		<!--</dependency>-->
+		<dependency>
+			<groupId>org.redisson</groupId>
+			<artifactId>redisson</artifactId>
+			<version>3.5.4</version>
+		</dependency>
 
 		<!-- JDK 1.6+ compatible -->
 		<!--<dependency>-->
@@ -33,11 +33,11 @@
 			<!--<version>2.10.4</version>-->
 		<!--</dependency>-->
 
-		<!--<dependency>-->
-			<!--<groupId>org.redisson</groupId>-->
-			<!--<artifactId>redisson-spring-boot-starter</artifactId>-->
-			<!--<version>3.11.5</version>-->
-		<!--</dependency>-->
+		<dependency>
+			<groupId>org.redisson</groupId>
+			<artifactId>redisson-spring-boot-starter</artifactId>
+			<version>3.11.5</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
