@@ -1,4 +1,4 @@
-package com.chryl.redis;
+package com.chryl.redis.cluster;
 
 import redis.clients.jedis.HostAndPort;
 import redis.clients.jedis.JedisCluster;

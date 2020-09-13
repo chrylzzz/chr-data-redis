@@ -1,4 +1,4 @@
-package com.chryl.config;
+package com.chryl.redis.redis.config;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;

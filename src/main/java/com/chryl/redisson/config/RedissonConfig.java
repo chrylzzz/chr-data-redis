@@ -1,10 +1,13 @@
-package com.chryl.config;
+/*
+package com.chryl.redis.redis.config;
 
+*/
 /**
  * Created by Chr.yl on 2020/6/4.
  *
  * @author Chr.yl
- */
+ *//*
+
 
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
@@ -71,4 +74,4 @@ public class RedissonConfig {
         return Redisson.create(config);
     }
 
-}
+}*/

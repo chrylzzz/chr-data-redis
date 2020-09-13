@@ -1,9 +1,10 @@
-package com.chryl.service;
+package com.chryl.redis.redis.service;
 
 /**
  * Created by Chr.yl on 2020/4/16.
  * redis操作Service,
  * 对象和数组都以json形式进行存储
+ *
  * @author Chr.yl
  */
 public interface RedisService {
@@ -29,6 +30,7 @@ public interface RedisService {
 
     /**
      * 自增操作
+     *
      * @param delta 自增步长
      */
     Long increment(String key, long delta);

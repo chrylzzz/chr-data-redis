@@ -1,4 +1,4 @@
-package com.chryl.entity;
+package com.chryl.redis.redis.entity;
 
 import lombok.Data;
 

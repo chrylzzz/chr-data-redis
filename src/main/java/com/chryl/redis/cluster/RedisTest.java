@@ -1,4 +1,4 @@
-package com.chryl.redis;
+package com.chryl.redis.cluster;
 
 import com.alibaba.fastjson.JSONArray;
 import org.slf4j.Logger;

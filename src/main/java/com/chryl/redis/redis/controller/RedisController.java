@@ -1,8 +1,8 @@
-package com.chryl.controller;
+package com.chryl.redis.redis.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.chryl.entity.User;
+import com.chryl.redis.redis.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.bind.annotation.PostMapping;

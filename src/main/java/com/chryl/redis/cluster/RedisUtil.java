@@ -1,4 +1,4 @@
-package com.chryl.redis;
+package com.chryl.redis.cluster;
 
 /**
  * Created By Chr on 2019/2/22/0022.
