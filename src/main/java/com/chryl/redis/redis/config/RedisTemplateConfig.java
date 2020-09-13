@@ -11,12 +11,15 @@ import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 /**
+ * jackson序列化redisTemplate
  * Created by Chr.yl on 2020/6/4.
  *
  * @author Chr.yl
  */
 @Configuration
 public class RedisTemplateConfig {
+
+
     @Bean
     public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory redisConnectionFactory) {
         RedisTemplate<String, Object> template = new RedisTemplate<>();
