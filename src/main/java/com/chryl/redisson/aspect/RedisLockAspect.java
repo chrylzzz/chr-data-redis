@@ -41,7 +41,7 @@ public class RedisLockAspect {
     public Object around(ProceedingJoinPoint joinPoint, RedisLock redisLock) throws Throwable {
         String spel = redisLock.key();
         String lockName = redisLock.lockName();
-
+        //redisson_lock:insertUser:9090999:nancy
         RLock rLock = redissonClient.getLock(getRedisKey(joinPoint, lockName, spel));
 
         rLock.lock(redisLock.expire(), redisLock.timeUnit());
